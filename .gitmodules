@@ -1,0 +1,3 @@
+[submodule "lstm-translator"]
+	path = lstm-translator
+	url = https://github.com/alexgarabt/lstm-translator.git
