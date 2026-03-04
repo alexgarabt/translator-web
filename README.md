@@ -2,7 +2,7 @@
 
 Web application for English-to-Spanish translation using a custom LSTM seq2seq model built from scratch.
 
-https://github.com/user-attachments/assets/ffd9ac47-3138-46a4-876c-34e608d9adec
+https://github.com/user-attachments/assets/c930abbb-c16f-4295-abbd-d82785c15ed8
 
 - **Model code**: [github.com/alexgarabt/lstm-translator](https://github.com/alexgarabt/lstm-translator)
 - **Pre-trained weights**: [huggingface.co/alexgara/lstm-en-es-translator](https://huggingface.co/alexgara/lstm-en-es-translator)
