@@ -30,13 +30,13 @@ fi
 # -- Start API --
 
 echo "Starting API on :8000..."
-(cd "$ROOT/api" && uv run uvicorn api.main:app --port 8000) &
+(cd "$ROOT/api" && uv run uvicorn api.main:app --host 0.0.0.0 --port 8000) &
 API_PID=$!
 
 # -- Start web --
 
 echo "Starting web on :5173..."
-(cd "$ROOT/web" && npm run dev -- --open) &
+(cd "$ROOT/web" && npm run dev -- --host 0.0.0.0 --open) &
 WEB_PID=$!
 
 echo ""
